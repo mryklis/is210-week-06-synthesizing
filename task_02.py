@@ -19,6 +19,10 @@ def prepare_email(appointments):
     """
 
     format_string = 'Dear {},\nI look forward to meeting with you on {}.\nBest,\nMe'
+##    tuple_counter = 0
+##    list_counter = 0 
     for obj in appointments:
-        email = format_string.format(*appointments)
-    return email
+       print format_string.format(*obj)
+##        tuple_counter += 1
+##        list_counter += 1 
+##    return email
